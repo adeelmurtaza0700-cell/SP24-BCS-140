@@ -1,0 +1,53 @@
+name: weather_app
+description: A stylish Flutter weather app with OpenWeatherMap API
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP
+  http: ^1.2.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Local storage
+  shared_preferences: ^2.2.3
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+  # Location
+  geolocator: ^11.0.0
+
+  # Animations
+  lottie: ^3.1.0
+
+  # Shimmer loading
+  shimmer: ^3.0.0
+
+  # Intl
+  intl: ^0.19.0
+
+  # Cached network image
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
